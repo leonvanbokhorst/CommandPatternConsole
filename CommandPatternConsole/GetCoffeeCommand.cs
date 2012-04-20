@@ -23,16 +23,12 @@ namespace CommandPatternConsole
         public void Execute()
         {
             // Get some coffee
-            Console.WriteLine(
-                "Here's your coffee {0} milk and {1} sugar.",
+            Console.WriteLine("Here's your coffee {0} milk and {1} sugar.",
                 Milk ? "with" : "no",
                 Sugar ? "with" : "no");
 
             // Log the command
-            Debug.WriteLine(
-                "{0}: {1} called",
-                DateTime.Now,
-                ToString());
+            Debug.WriteLine("{0}: {1} called", DateTime.Now, ToString());
         }
 
         #endregion
@@ -57,10 +53,8 @@ namespace CommandPatternConsole
 
             return new GetCoffeeCommand
                        {
-                           Milk = (arg1 == "milk" ||
-                                   (arg2 == "milk")),
-                           Sugar = arg1 == "sugar" ||
-                                   ((arg2 == "sugar"))
+                           Milk = (arg1 == "milk" || (arg2 == "milk")),
+                           Sugar = arg1 == "sugar" || ((arg2 == "sugar"))
                        };
         }
 
