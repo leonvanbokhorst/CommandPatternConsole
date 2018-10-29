@@ -1,0 +1,13 @@
+{
+  "User": {
+    "Id": 3587,
+    "Username": "I882807",
+    "Name": "Bokhorst,Leon L.R. van",
+    "Email": "l.vanbokhorst@fontys.nl",
+    "AvatarUrl": "https://apps.fhict.nl/userphotos/redirect?email=l.vanbokhorst%40fontys.nl&s=80",
+    "PrivateToken": "af03c20798a15635a8a0abd001d7e33aad9c3c47991ee3d00b186241d0f43ac2",
+    "Host": "https://git.fhict.nl/",
+    "TwoFactorEnabled": false,
+    "ApiVersion": 3
+  }
+}

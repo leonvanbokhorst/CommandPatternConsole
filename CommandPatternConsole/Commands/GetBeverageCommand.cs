@@ -1,7 +1,8 @@
 using System;
 using System.Diagnostics;
+using CommandPatternConsole.Interfaces;
 
-namespace CommandPatternConsole
+namespace CommandPatternConsole.Commands
 {
     public class GetBeverageCommand : ICommand, ICommandFactory
     {

@@ -1,4 +1,4 @@
-﻿namespace CommandPatternConsole
+﻿namespace CommandPatternConsole.Interfaces
 {
     public interface ICommand
     {

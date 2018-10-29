@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using CommandPatternConsole.Commands;
+using CommandPatternConsole.Interfaces;
 
 namespace CommandPatternConsole
 {
